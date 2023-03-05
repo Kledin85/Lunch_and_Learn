@@ -31,7 +31,6 @@ describe 'recipes', type: :request do
 
     recipes = JSON.parse(response.body, symbolize_names: true)
     expect(recipes[:data]).to be_a(Array)
-    binding.pry
     recipes[:data].each do |recipe|
       expect(recipe).to be_a(Hash)
       expect(recipe[:id]).to eq(nil)

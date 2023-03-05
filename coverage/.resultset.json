@@ -211,6 +211,139 @@
           1,
           1,
           1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/spec/request/api/v1/recipes_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/controllers/api/v1/learning_resources_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/services/youtube_service.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/services/unsplash_service.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/serializers/learning_resources_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          10,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null,
           null,
           null
@@ -229,12 +362,6 @@
           1,
           null,
           null,
-          null
-        ]
-      },
-      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
           null
         ]
       },
@@ -298,6 +425,6 @@
         ]
       }
     },
-    "timestamp": 1677963261
+    "timestamp": 1678043472
   }
 }
