@@ -38,6 +38,7 @@ group :development, :test do
   gem 'hirb'
   gem 'factory_bot_rails'
   gem 'faker'
+  gem 'webmock'
 end
 
 group :development do
