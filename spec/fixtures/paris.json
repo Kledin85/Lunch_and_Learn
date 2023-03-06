@@ -1,0 +1,1048 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Galerie Notre Dame",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Ile-de-France",
+              "city": "Paris",
+              "postcode": "75004",
+              "district": "Paris",
+              "suburb": "4th Arrondissement",
+              "city_block": "Quartier Les Îles",
+              "street": "Rue du Cloître Notre-Dame",
+              "lon": 2.3494602,
+              "lat": 48.8536993,
+              "formatted": "Galerie Notre Dame, Rue du Cloître Notre-Dame, 75004 Paris, France",
+              "address_line1": "Galerie Notre Dame",
+              "address_line2": "Rue du Cloître Notre-Dame, 75004 Paris, France",
+              "categories": [
+                  "commercial",
+                  "commercial.gift_and_souvenir",
+                  "wheelchair",
+                  "wheelchair.limited"
+              ],
+              "details": [
+                  "details.facilities"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Galerie Notre Dame",
+                      "shop": "gift",
+                      "osm_id": 5943866894,
+                      "osm_type": "n",
+                      "wheelchair": "limited",
+                      "opening_hours:signed": "no",
+                      "check_date:opening_hours": "2022-08-23"
+                  }
+              },
+              "distance": 82,
+              "place_id": "516a0712cab1cb024059ea79c604466d4840f00103f9010e3648620100000092031247616c65726965204e6f7472652044616d65"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.3494602,
+                  48.8536992997286
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Manal Souvenirs",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Ile-de-France",
+              "city": "Paris",
+              "postcode": "75004",
+              "district": "Paris",
+              "suburb": "4th Arrondissement",
+              "city_block": "Quartier Les Îles",
+              "street": "Rue d'Arcole",
+              "lon": 2.3495503,
+              "lat": 48.853839,
+              "formatted": "Manal Souvenirs, Rue d'Arcole, 75004 Paris, France",
+              "address_line1": "Manal Souvenirs",
+              "address_line2": "Rue d'Arcole, 75004 Paris, France",
+              "categories": [
+                  "commercial",
+                  "commercial.gift_and_souvenir"
+              ],
+              "details": [
+                  "details.facilities"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Manal Souvenirs",
+                      "shop": "gift",
+                      "osm_id": 5943877286,
+                      "osm_type": "n",
+                      "wheelchair": "no",
+                      "opening_hours:signed": "no",
+                      "check_date:opening_hours": "2022-08-23"
+                  }
+              },
+              "distance": 93,
+              "place_id": "51b6741607e1cb02405917f1a9984a6d4840f00103f901a65e48620100000092030f4d616e616c20536f7576656e697273"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.3495502999999998,
+                  48.85383899972856
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Notre-Dame Cadeaux",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Ile-de-France",
+              "city": "Paris",
+              "postcode": "75004",
+              "district": "Paris",
+              "suburb": "4th Arrondissement",
+              "city_block": "Quartier Les Îles",
+              "street": "Rue d'Arcole",
+              "lon": 2.3495762,
+              "lat": 48.8538768,
+              "formatted": "Notre-Dame Cadeaux, Rue d'Arcole, 75004 Paris, France",
+              "address_line1": "Notre-Dame Cadeaux",
+              "address_line2": "Rue d'Arcole, 75004 Paris, France",
+              "categories": [
+                  "commercial",
+                  "commercial.gift_and_souvenir",
+                  "wheelchair",
+                  "wheelchair.yes"
+              ],
+              "details": [
+                  "details.facilities"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Notre-Dame Cadeaux",
+                      "shop": "gift",
+                      "osm_id": 5943865108,
+                      "osm_type": "n",
+                      "wheelchair": "yes",
+                      "opening_hours:signed": "no",
+                      "check_date:opening_hours": "2022-08-23"
+                  }
+              },
+              "distance": 97,
+              "place_id": "51fdad539beecb024059dcd2c0d54b6d4840f00103f901142f4862010000009203124e6f7472652d44616d652043616465617578"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.3495762,
+                  48.85387679972857
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "A Notre-Dame de Paris",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Ile-de-France",
+              "city": "Paris",
+              "postcode": "75004",
+              "district": "Paris",
+              "suburb": "4th Arrondissement",
+              "city_block": "Quartier Les Îles",
+              "street": "Rue d'Arcole",
+              "lon": 2.3496062,
+              "lat": 48.8539155,
+              "formatted": "A Notre-Dame de Paris, Rue d'Arcole, 75004 Paris, France",
+              "address_line1": "A Notre-Dame de Paris",
+              "address_line2": "Rue d'Arcole, 75004 Paris, France",
+              "categories": [
+                  "commercial",
+                  "commercial.gift_and_souvenir"
+              ],
+              "details": [
+                  "details.facilities"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "A Notre-Dame de Paris",
+                      "shop": "gift",
+                      "osm_id": 5944110685,
+                      "osm_type": "n",
+                      "wheelchair": "no",
+                      "opening_hours:signed": "no",
+                      "check_date:opening_hours": "2022-08-23"
+                  }
+              },
+              "distance": 101,
+              "place_id": "51a8d4db55fecb024059d970641a4d6d4840f00103f9015dee4b620100000092031541204e6f7472652d44616d65206465205061726973"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.3496062,
+                  48.85391549972855
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Quasimodo Souvenirs",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Ile-de-France",
+              "city": "Paris",
+              "postcode": "75004",
+              "district": "Paris",
+              "suburb": "4th Arrondissement",
+              "city_block": "Quartier Les Îles",
+              "street": "Rue d'Arcole",
+              "lon": 2.3496327,
+              "lat": 48.8539578,
+              "formatted": "Quasimodo Souvenirs, Rue d'Arcole, 75004 Paris, France",
+              "address_line1": "Quasimodo Souvenirs",
+              "address_line2": "Rue d'Arcole, 75004 Paris, France",
+              "categories": [
+                  "commercial",
+                  "commercial.gift_and_souvenir"
+              ],
+              "details": [
+                  "details.facilities"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Quasimodo Souvenirs",
+                      "shop": "gift",
+                      "osm_id": 5943866895,
+                      "osm_type": "n",
+                      "wheelchair": "no",
+                      "opening_hours:signed": "no",
+                      "check_date:opening_hours": "2022-08-23"
+                  }
+              },
+              "distance": 105,
+              "place_id": "51bde5a03a0ccc024059c6ff3a7d4e6d4840f00103f9010f3648620100000092031351756173696d6f646f20536f7576656e697273"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.3496326999999995,
+                  48.85395779972855
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Paris Label",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Ile-de-France",
+              "city": "Paris",
+              "postcode": "75004",
+              "district": "Paris",
+              "suburb": "4th Arrondissement",
+              "city_block": "Quartier Les Îles",
+              "street": "Rue d'Arcole",
+              "lon": 2.3496658,
+              "lat": 48.8540012,
+              "formatted": "Paris Label, Rue d'Arcole, 75004 Paris, France",
+              "address_line1": "Paris Label",
+              "address_line2": "Rue d'Arcole, 75004 Paris, France",
+              "categories": [
+                  "commercial",
+                  "commercial.gift_and_souvenir",
+                  "wheelchair",
+                  "wheelchair.limited"
+              ],
+              "details": [
+                  "details.facilities"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Paris Label",
+                      "shop": "gift",
+                      "osm_id": 5943865109,
+                      "osm_type": "n",
+                      "wheelchair": "limited",
+                      "opening_hours:signed": "no",
+                      "check_date:opening_hours": "2022-08-23"
+                  }
+              },
+              "distance": 109,
+              "place_id": "51c83c3c951dcc02405919ca4be94f6d4840f00103f901152f48620100000092030b5061726973204c6162656c"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.3496658000000004,
+                  48.85400119972855
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Reflets de Paris",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Ile-de-France",
+              "city": "Paris",
+              "postcode": "75004",
+              "district": "Paris",
+              "suburb": "4th Arrondissement",
+              "city_block": "Quartier Les Îles",
+              "street": "Rue d'Arcole",
+              "lon": 2.349704,
+              "lat": 48.8540432,
+              "formatted": "Reflets de Paris, Rue d'Arcole, 75004 Paris, France",
+              "address_line1": "Reflets de Paris",
+              "address_line2": "Rue d'Arcole, 75004 Paris, France",
+              "categories": [
+                  "commercial",
+                  "commercial.gift_and_souvenir",
+                  "wheelchair",
+                  "wheelchair.limited"
+              ],
+              "details": [
+                  "details.facilities"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Reflets de Paris",
+                      "shop": "gift",
+                      "osm_id": 5944111885,
+                      "osm_type": "n",
+                      "wheelchair": "limited",
+                      "opening_hours:signed": "no",
+                      "check_date:opening_hours": "2022-08-23"
+                  }
+              },
+              "distance": 114,
+              "place_id": "513a3e5a9c31cc024059441a9e49516d4840f00103f9010df34b62010000009203105265666c657473206465205061726973"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.349704,
+                  48.85404319972852
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Zas Souvenir",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Ile-de-France",
+              "city": "Paris",
+              "postcode": "75004",
+              "district": "Paris",
+              "suburb": "4th Arrondissement",
+              "city_block": "Quartier Les Îles",
+              "street": "Rue d'Arcole",
+              "lon": 2.3497723,
+              "lat": 48.8541377,
+              "formatted": "Zas Souvenir, Rue d'Arcole, 75004 Paris, France",
+              "address_line1": "Zas Souvenir",
+              "address_line2": "Rue d'Arcole, 75004 Paris, France",
+              "categories": [
+                  "commercial",
+                  "commercial.gift_and_souvenir"
+              ],
+              "details": [
+                  "details.facilities"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Zas Souvenir",
+                      "shop": "gift",
+                      "osm_id": 5943865110,
+                      "osm_type": "n",
+                      "wheelchair": "no",
+                      "survey:date": "2022-08-29"
+                  }
+              },
+              "distance": 124,
+              "place_id": "51a55f6c6b55cc024059a94e5762546d4840f00103f901162f48620100000092030c5a617320536f7576656e6972"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.3497723,
+                  48.85413769972849
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "La cité Notre Dame",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Ile-de-France",
+              "city": "Paris",
+              "postcode": "75004",
+              "district": "Paris",
+              "suburb": "4th Arrondissement",
+              "city_block": "Quartier Les Îles",
+              "street": "Rue Chanoinesse",
+              "lon": 2.3498217,
+              "lat": 48.8541955,
+              "formatted": "La cité Notre Dame, Rue Chanoinesse, 75004 Paris, France",
+              "address_line1": "La cité Notre Dame",
+              "address_line2": "Rue Chanoinesse, 75004 Paris, France",
+              "categories": [
+                  "commercial",
+                  "commercial.gift_and_souvenir",
+                  "wheelchair",
+                  "wheelchair.yes"
+              ],
+              "details": [
+                  "details.facilities"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "La cité Notre Dame",
+                      "shop": "gift",
+                      "osm_id": 5943865111,
+                      "osm_type": "n",
+                      "wheelchair": "yes",
+                      "opening_hours:signed": "no",
+                      "check_date:opening_hours": "2022-08-23"
+                  }
+              },
+              "distance": 131,
+              "place_id": "51f072c7516fcc024059b2dc3347566d4840f00103f901172f4862010000009203134c6120636974c3a9204e6f7472652044616d65"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.3498216999999997,
+                  48.854195499728476
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Shakespeare and Company",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Ile-de-France",
+              "city": "Paris",
+              "postcode": "75005",
+              "district": "Paris",
+              "suburb": "5th Arrondissement",
+              "city_block": "Quartier de la Sorbonne",
+              "street": "Rue de la Bûcherie",
+              "lon": 2.3471123,
+              "lat": 48.8525782,
+              "formatted": "Shakespeare and Company, Rue de la Bûcherie, 75005 Paris, France",
+              "address_line1": "Shakespeare and Company",
+              "address_line2": "Rue de la Bûcherie, 75005 Paris, France",
+              "categories": [
+                  "commercial",
+                  "commercial.books",
+                  "wheelchair",
+                  "wheelchair.limited"
+              ],
+              "details": [
+                  "details",
+                  "details.contact",
+                  "details.facilities",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Shakespeare and Company",
+                      "shop": "books",
+                      "books": "english",
+                      "email": "news@shakespeareandcompany.com",
+                      "phone": "+33 1 43 25 40 93",
+                      "piano": "yes",
+                      "osm_id": 251373380,
+                      "name:en": "Shakespeare and Company",
+                      "name:ko": "세익스피어 앤 컴패니",
+                      "website": "http://www.shakespeareandcompany.com/",
+                      "osm_type": "n",
+                      "wikidata": "Q1503157",
+                      "wikipedia": "fr:Shakespeare and Company",
+                      "wheelchair": "limited",
+                      "opening_hours": "Mo-Su 10:00-23:00"
+                  }
+              },
+              "distance": 139,
+              "place_id": "51925044d0e2c60240591f8f4e48216d4840f00103f90144a7fb0e000000009203175368616b6573706561726520616e6420436f6d70616e79"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.3471123,
+                  48.85257819972889
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Guichet Transilien",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Ile-de-France",
+              "city": "Paris",
+              "postcode": "75005",
+              "district": "Paris",
+              "suburb": "5th Arrondissement",
+              "city_block": "Quartier de la Sorbonne",
+              "street": "Quai Saint-Michel",
+              "lon": 2.3464978,
+              "lat": 48.8531292,
+              "formatted": "Guichet Transilien, Quai Saint-Michel, 75005 Paris, France",
+              "address_line1": "Guichet Transilien",
+              "address_line2": "Quai Saint-Michel, 75005 Paris, France",
+              "categories": [
+                  "commercial",
+                  "commercial.tickets_and_lottery",
+                  "wheelchair",
+                  "wheelchair.yes"
+              ],
+              "details": [
+                  "details",
+                  "details.commercial",
+                  "details.facilities"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Guichet Transilien",
+                      "shop": "ticket",
+                      "level": -1,
+                      "osm_id": 9487247503,
+                      "amenity": "reception_desk",
+                      "operator": "SNCF",
+                      "osm_type": "n",
+                      "audio_loop": "yes",
+                      "wheelchair": "yes",
+                      "tickets:public_transport": "yes"
+                  }
+              },
+              "distance": 145,
+              "place_id": "516d1679a3a0c50240597f0c6e56336d4840f00103f9018fe87b350200000092031247756963686574205472616e73696c69656e"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.3464978000000003,
+                  48.85312919972875
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Paris Smile Souvenirs",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Ile-de-France",
+              "city": "Paris",
+              "postcode": "75005",
+              "district": "Paris",
+              "suburb": "5th Arrondissement",
+              "city_block": "Quartier de la Sorbonne",
+              "street": "Rue de la Huchette",
+              "lon": 2.3465303,
+              "lat": 48.8529068,
+              "formatted": "Paris Smile Souvenirs, Rue de la Huchette, 75005 Paris, France",
+              "address_line1": "Paris Smile Souvenirs",
+              "address_line2": "Rue de la Huchette, 75005 Paris, France",
+              "categories": [
+                  "commercial",
+                  "commercial.gift_and_souvenir"
+              ],
+              "details": [],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Paris Smile Souvenirs",
+                      "shop": "gift",
+                      "osm_id": 6542732150,
+                      "osm_type": "n"
+                  }
+              },
+              "distance": 151,
+              "place_id": "51a5958cadb1c502405983afcd0c2c6d4840f00103f901762bfa8501000000920315506172697320536d696c6520536f7576656e697273"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.3465303,
+                  48.85290679972879
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Méga Souvenirs",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Ile-de-France",
+              "city": "Paris",
+              "postcode": "75005",
+              "district": "Paris",
+              "suburb": "5th Arrondissement",
+              "city_block": "Quartier de la Sorbonne",
+              "street": "Quai Saint-Michel",
+              "lon": 2.3464172,
+              "lat": 48.8530805,
+              "formatted": "Méga Souvenirs, Quai Saint-Michel, 75005 Paris, France",
+              "address_line1": "Méga Souvenirs",
+              "address_line2": "Quai Saint-Michel, 75005 Paris, France",
+              "categories": [
+                  "commercial",
+                  "commercial.gift_and_souvenir"
+              ],
+              "details": [],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Méga Souvenirs",
+                      "shop": "gift",
+                      "osm_id": 6542738828,
+                      "osm_type": "n"
+                  }
+              },
+              "distance": 152,
+              "place_id": "51d52c866176c50240595c98e7bd316d4840f00103f9018c45fa850100000092030f4dc3a9676120536f7576656e697273"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.3464172,
+                  48.85308049972875
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Paris Touch",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Ile-de-France",
+              "city": "Paris",
+              "postcode": "75004",
+              "district": "Paris",
+              "suburb": "4th Arrondissement",
+              "city_block": "Quartier Les Îles",
+              "street": "Rue Chanoinesse",
+              "lon": 2.3499585,
+              "lat": 48.8544084,
+              "formatted": "Paris Touch, Rue Chanoinesse, 75004 Paris, France",
+              "address_line1": "Paris Touch",
+              "address_line2": "Rue Chanoinesse, 75004 Paris, France",
+              "categories": [
+                  "commercial",
+                  "commercial.gift_and_souvenir",
+                  "wheelchair",
+                  "wheelchair.yes"
+              ],
+              "details": [
+                  "details.facilities"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Paris Touch",
+                      "shop": "gift",
+                      "osm_id": 2927812412,
+                      "osm_type": "n",
+                      "wheelchair": "yes"
+                  }
+              },
+              "distance": 153,
+              "place_id": "5161a8c30ab7cc024059702123415d6d4840f00103f9013cdf82ae0000000092030b506172697320546f756368"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.3499585,
+                  48.85440839972841
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Le Haut du Pavé",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Ile-de-France",
+              "city": "Paris",
+              "postcode": "75005",
+              "district": "Paris",
+              "suburb": "5th Arrondissement",
+              "city_block": "Quartier de la Sorbonne",
+              "street": "Rue Saint-Julien Le Pauvre",
+              "lon": 2.3470952,
+              "lat": 48.852406,
+              "formatted": "Le Haut du Pavé, Rue Saint-Julien Le Pauvre, 75005 Paris, France",
+              "address_line1": "Le Haut du Pavé",
+              "address_line2": "Rue Saint-Julien Le Pauvre, 75005 Paris, France",
+              "categories": [
+                  "commercial",
+                  "commercial.furniture_and_interior"
+              ],
+              "details": [],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Le Haut du Pavé",
+                      "shop": "interior_decoration",
+                      "osm_id": 3350287293,
+                      "osm_type": "n"
+                  }
+              },
+              "distance": 154,
+              "place_id": "51e4c924d9d9c6024059fedfc9a31b6d4840f00103f901bd53b1c7000000009203104c65204861757420647520506176c3a9"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.3470952,
+                  48.85240599972893
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "dam dom",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Ile-de-France",
+              "city": "Paris",
+              "postcode": "75005",
+              "district": "Paris",
+              "suburb": "5th Arrondissement",
+              "city_block": "Quartier de la Sorbonne",
+              "street": "Rue de la Huchette",
+              "lon": 2.3465026,
+              "lat": 48.8528552,
+              "formatted": "dam dom, Rue de la Huchette, 75005 Paris, France",
+              "address_line1": "dam dom",
+              "address_line2": "Rue de la Huchette, 75005 Paris, France",
+              "categories": [
+                  "commercial",
+                  "commercial.jewelry"
+              ],
+              "details": [
+                  "details.facilities"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "dam dom",
+                      "shop": "jewelry",
+                      "osm_id": 3085086581,
+                      "osm_type": "n",
+                      "addr:city": "Paris",
+                      "wheelchair": "no",
+                      "addr:postcode": 75005
+                  }
+              },
+              "distance": 156,
+              "place_id": "51eed4b727a3c50240598887f35b2a6d4840f00103f90175afe2b70000000092030764616d20646f6d"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.3465026,
+                  48.85285519972882
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Souvenirs de Paris",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Ile-de-France",
+              "city": "Paris",
+              "postcode": "75005",
+              "district": "Paris",
+              "suburb": "5th Arrondissement",
+              "city_block": "Quartier de la Sorbonne",
+              "street": "Quai Saint-Michel",
+              "lon": 2.3463324,
+              "lat": 48.8531015,
+              "formatted": "Souvenirs de Paris, Quai Saint-Michel, 75005 Paris, France",
+              "address_line1": "Souvenirs de Paris",
+              "address_line2": "Quai Saint-Michel, 75005 Paris, France",
+              "categories": [
+                  "commercial",
+                  "commercial.gift_and_souvenir"
+              ],
+              "details": [],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Souvenirs de Paris",
+                      "shop": "gift",
+                      "osm_id": 6542738827,
+                      "osm_type": "n"
+                  }
+              },
+              "distance": 157,
+              "place_id": "518d5cdceb49c502405972c0106e326d4840f00103f9018b45fa8501000000920312536f7576656e697273206465205061726973"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.3463324,
+                  48.85310149972874
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Au cœur de Paris",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Ile-de-France",
+              "city": "Paris",
+              "postcode": "75004",
+              "district": "Paris",
+              "suburb": "4th Arrondissement",
+              "city_block": "Quartier Les Îles",
+              "street": "Rue de la Colombe",
+              "lon": 2.3500122,
+              "lat": 48.8544761,
+              "formatted": "Au cœur de Paris, Rue de la Colombe, 75004 Paris, France",
+              "address_line1": "Au cœur de Paris",
+              "address_line2": "Rue de la Colombe, 75004 Paris, France",
+              "categories": [
+                  "commercial",
+                  "commercial.gift_and_souvenir",
+                  "wheelchair",
+                  "wheelchair.yes"
+              ],
+              "details": [
+                  "details.facilities"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Au cœur de Paris",
+                      "shop": "gift",
+                      "osm_id": 5943857034,
+                      "osm_type": "n",
+                      "wheelchair": "yes"
+                  }
+              },
+              "distance": 161,
+              "place_id": "51ad9b4132d3cc02405909c60b795f6d4840f00103f9018a0f48620100000092031141752063c5937572206465205061726973"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.3500122000000006,
+                  48.85447609972841
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Quai des Souvenirs",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Ile-de-France",
+              "city": "Paris",
+              "postcode": "75005",
+              "district": "Paris",
+              "suburb": "5th Arrondissement",
+              "city_block": "Quartier de la Sorbonne",
+              "street": "Rue du Chat Qui Pêche",
+              "lon": 2.3462545,
+              "lat": 48.8531248,
+              "formatted": "Quai des Souvenirs, Rue du Chat Qui Pêche, 75005 Paris, France",
+              "address_line1": "Quai des Souvenirs",
+              "address_line2": "Rue du Chat Qui Pêche, 75005 Paris, France",
+              "categories": [
+                  "commercial",
+                  "commercial.gift_and_souvenir"
+              ],
+              "details": [],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Quai des Souvenirs",
+                      "shop": "gift",
+                      "osm_id": 6542738826,
+                      "osm_type": "n"
+                  }
+              },
+              "distance": 162,
+              "place_id": "511ebe4c1421c5024059ea1e8531336d4840f00103f9018a45fa8501000000920312517561692064657320536f7576656e697273"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.3462544999999997,
+                  48.85312479972875
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Montebello' Market",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Ile-de-France",
+              "city": "Paris",
+              "postcode": "75005",
+              "district": "Paris",
+              "suburb": "5th Arrondissement",
+              "city_block": "Quartier de la Sorbonne",
+              "street": "Quai de Montebello",
+              "lon": 2.3487198,
+              "lat": 48.8520467,
+              "formatted": "Montebello' Market, Quai de Montebello, 75005 Paris, France",
+              "address_line1": "Montebello' Market",
+              "address_line2": "Quai de Montebello, 75005 Paris, France",
+              "categories": [
+                  "commercial",
+                  "commercial.convenience"
+              ],
+              "details": [
+                  "details"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Montebello' Market",
+                      "shop": "convenience",
+                      "osm_id": 7237383885,
+                      "osm_type": "n",
+                      "description": "Survey 2022-11-20 : off-season, closed on tuesdays",
+                      "opening_hours": "We-Mo 10:30-00:30; Jun-Aug 08:00-01:00"
+                  }
+              },
+              "distance": 163,
+              "place_id": "51c5bd439b2dca0240591e00c3dd0f6d4840f00103f901cdb661af010000009203124d6f6e746562656c6c6f27204d61726b6574"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.3487198,
+                  48.85204669972903
+              ]
+          }
+      }
+  ]
+}
