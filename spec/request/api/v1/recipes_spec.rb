@@ -2,6 +2,9 @@ require 'rails_helper'
 
 describe 'recipes', type: :request do
   it 'describes the index search by country' do
+    json_response = File.read('spec/fixtures/thailand_edamam.json')
+    stub_request(:get, "https://api.edamam.com/api/recipes/v2?type=public&q=thailand&app_id=0fc1b5ca&app_key=#{ENV['EDAMAM_KEY']}")
+      .to_return(status: 200, body: json_response)
     country = "thailand"
     get "/api/v1/recipes?country=#{country}"
 
@@ -24,6 +27,9 @@ describe 'recipes', type: :request do
   end
 
   it 'describes the index search by random country' do
+    json_response = File.read('spec/fixtures/all_countries.json')
+    stub_request(:get, "https://restcountries.com/v3.1/all")
+      .to_return(status: 200, body: json_response)
     get "/api/v1/recipes?random"
 
     expect(response).to be_successful
