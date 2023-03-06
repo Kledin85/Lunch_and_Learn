@@ -1,7 +1,7 @@
 class EdamamService
 
   def self.by_country(country)
-    response = conn.get("?type=public&q=#{country}&app_id=0fc1b5ca&app_key=424c8a53318a03a35c52a47886c7067d")
+    response = conn.get("?type=public&q=#{country}&app_id=0fc1b5ca&app_key=#{ENV['EDAMAM_KEY']}")
     parse_json(response)
   end
 
