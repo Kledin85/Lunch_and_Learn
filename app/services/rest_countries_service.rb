@@ -6,7 +6,7 @@ class RestCountriesService
   
   def self.capital(country)
     response = conn.get("/v3.1/name/#{country}?fullText=true")
-    parse_json(response)[0][:capital][0]
+    parse_json(response)[0]
   end
 
   def self.conn

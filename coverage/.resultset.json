@@ -225,6 +225,10 @@
           1,
           1,
           1,
+          1,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -257,8 +261,47 @@
           null,
           null
         ]
+      },
+      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/services/tourist_sights_service.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/serializers/tourist_sights_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          20,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1678120498
+    "timestamp": 1678124170
   }
 }
