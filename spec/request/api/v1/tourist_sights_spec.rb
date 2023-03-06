@@ -22,5 +22,8 @@ describe 'tourist_sights', type: :request do
     expect(tourist_sights[:data][0][:attributes]).to have_key(:name)
     expect(tourist_sights[:data][0][:attributes]).to have_key(:address)
     expect(tourist_sights[:data][0][:attributes]).to have_key(:place_id)
+    expect(tourist_sights[:data][0][:attributes][:name]).to be_a(String)
+    expect(tourist_sights[:data][0][:attributes][:address]).to be_a(String)
+    expect(tourist_sights[:data][0][:attributes][:place_id]).to be_a(String)
   end
 end
