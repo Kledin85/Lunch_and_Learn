@@ -213,6 +213,7 @@
           1,
           1,
           1,
+          1,
           null,
           null,
           null
@@ -260,14 +261,14 @@
           1,
           1,
           1,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
           null,
           null,
           null
@@ -302,6 +303,20 @@
           1,
           1,
           1,
+          null,
+          null
+        ]
+      },
+      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/spec/request/api/v1/users_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          0,
+          null,
+          0,
+          0,
           null,
           null
         ]
@@ -431,7 +446,7 @@
           null,
           2,
           null,
-          40,
+          29,
           null,
           null,
           null,
@@ -525,6 +540,6 @@
         ]
       }
     },
-    "timestamp": 1678126840
+    "timestamp": 1678208145
   }
 }
