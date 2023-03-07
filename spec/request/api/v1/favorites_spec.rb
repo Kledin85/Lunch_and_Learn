@@ -46,11 +46,21 @@ describe 'favorites', type: :request do
   end
   
   it 'can grab a users favorites' do
+    payload = JSON.generate(
+      {
+        country: 'thailand',
+        recipe_link: 'http://norecipes.com/recipe/chicken-paprikash/',
+        recipe_title: 'Chicken Paprikash',
+        api_key: @user1.api_key
+      }
+    )
+
+    post "/api/v1/favorites", headers: @headers, params: payload
+
     get "/api/v1/favorites?api_key=#{@user1.api_key}"
     expect(response).to be_successful
     expect(response.status).to eq(200)
     favorites = JSON.parse(response.body, symbolize_names: true)
-    
     expect(favorites[:data]).to be_a(Array)
     expect(favorites[:data][0]).to be_a(Hash)
     expect(favorites[:data][0]).to have_key(:id)

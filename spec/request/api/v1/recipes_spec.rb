@@ -56,7 +56,6 @@ describe 'recipes', type: :request do
     expect(response.status).to eq(200)
 
     resource = JSON.parse(response.body, symbolize_names: true)
-    binding.pry
     expect(resource[:data]).to eq([])
   end
 end
