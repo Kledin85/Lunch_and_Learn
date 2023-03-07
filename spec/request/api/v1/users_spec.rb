@@ -36,10 +36,10 @@ describe 'users', type: :request do
   it 'returns an error if user does not save' do 
     payload = JSON.generate(
       {
-        name: "Athena Dao",
+        name: "Athena Dao"
       }
     )
-    
+
     post '/api/v1/users', headers: @headers, params: payload
     expect(response.status).to eq(400)
 

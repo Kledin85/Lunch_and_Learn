@@ -48,4 +48,15 @@ describe 'recipes', type: :request do
       expect(recipe[:attributes]).to have_key(:image)
     end
   end
+
+  it 'returns an empty data array if the string is empty' do
+    get "/api/v1/recipes"
+
+    expect(response).to be_successful
+    expect(response.status).to eq(200)
+
+    resource = JSON.parse(response.body, symbolize_names: true)
+    binding.pry
+    expect(resource[:data]).to eq([])
+  end
 end
