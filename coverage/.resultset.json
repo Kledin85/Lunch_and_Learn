@@ -208,9 +208,9 @@
         "lines": [
           1,
           1,
-          2,
-          2,
-          2,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -231,6 +231,28 @@
           null
         ]
       },
+      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/controllers/api/v1/users_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          2,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
       "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/models/user.rb": {
         "lines": [
           1,
@@ -239,7 +261,7 @@
           1,
           null,
           1,
-          0,
+          2,
           null,
           null,
           null
@@ -252,39 +274,26 @@
           null
         ]
       },
-      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/controllers/api/v1/favorites_controller.rb": {
+      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/serializers/users_serializer.rb": {
         "lines": [
           1,
-          null,
           1,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          0,
-          0,
           null,
           1,
           null,
           null,
           null,
-          null
-        ]
-      },
-      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1678221999
+    "timestamp": 1678224686
   }
 }
