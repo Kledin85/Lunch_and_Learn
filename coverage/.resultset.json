@@ -195,7 +195,7 @@
           null,
           null,
           1,
-          2,
+          1,
           null,
           null,
           null,
@@ -214,332 +214,53 @@
           1,
           1,
           1,
+          1,
           null,
           null,
           null
         ]
       },
-      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/spec/request/api/v1/recipes_spec.rb": {
+      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/models/favorite.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/spec/models/users_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9,
-          9,
-          null,
+          2,
           null,
           null
         ]
       },
-      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/spec/request/api/v1/tourist_sights_spec.rb": {
+      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/models/user.rb": {
         "lines": [
           1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
           1,
           1,
           1,
           null,
-          null
-        ]
-      },
-      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/spec/request/api/v1/users_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
           1,
           0,
-          null,
-          0,
-          0,
-          null,
-          null
-        ]
-      },
-      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/controllers/api/v1/learning_resources_controller.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/services/youtube_service.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/services/unsplash_service.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/serializers/learning_resources_serializer.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          10,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/controllers/api/v1/recipes_controller.rb": {
-        "lines": [
-          1,
-          1,
-          2,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/services/edamam_service.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          2,
-          2,
-          null,
-          null,
-          1,
-          2,
-          null,
-          null,
-          1,
-          2,
-          null,
-          null
-        ]
-      },
-      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/serializers/recipes_serializer.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          2,
-          null,
-          29,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/services/rest_countries_service.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          2,
-          null,
-          null,
-          1,
-          2,
-          null,
-          null
-        ]
-      },
-      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/controllers/api/v1/tourist_sights_controller.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/services/tourist_sights_service.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/kyleledin/turing/3module/projects/Lunch_and_Learn/app/serializers/tourist_sights_serializer.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          null,
-          20,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1678208145
+    "timestamp": 1678210327
   }
 }
