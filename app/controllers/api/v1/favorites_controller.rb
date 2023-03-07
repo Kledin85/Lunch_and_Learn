@@ -5,13 +5,17 @@ class Api::V1::FavoritesController < ApplicationController
     if favorite.save 
       render json: { "success": "Favorite added successfully" }
     else
-      render json: { "fail": "Invalid api key"}, status: 400
+      render json: { "error": "Invalid api key"}, status: 400
     end
   end
-
+  
   def index
-    user_favorites = User.find_by(api_key: params[:api_key]).favorites
-    render json: UserFavoritesSerializer.favorites(user_favorites)
+    if User.find_by(api_key: params[:api_key]) != nil
+      user_favorites = User.find_by(api_key: params[:api_key]).favorites
+      render json: UserFavoritesSerializer.favorites(user_favorites)
+    else
+      render json: { "error": "Invalid api key"}, status: 400
+    end
   end
 
 end

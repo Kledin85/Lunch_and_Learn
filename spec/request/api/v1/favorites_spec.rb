@@ -41,17 +41,16 @@ describe 'favorites', type: :request do
     post "/api/v1/favorites", headers: @headers, params: payload
     expect(response.status).to eq(400)
     
-    fav = JSON.parse(response.body, symbolize_names: true)
-    expect(fav).to eq({ fail: "Invalid api key"}) 
+    error = JSON.parse(response.body, symbolize_names: true)
+    expect(error).to eq({ error: "Invalid api key"}) 
   end
-
+  
   it 'can grab a users favorites' do
-    user = User.all.first
-    get '/api/v1/favorites?api_key=G1uPCpnE4MSAXY5mgRQaIoZD0jy897Wq'
+    get "/api/v1/favorites?api_key=#{@user1.api_key}"
     expect(response).to be_successful
     expect(response.status).to eq(200)
     favorites = JSON.parse(response.body, symbolize_names: true)
-
+    
     expect(favorites[:data]).to be_a(Array)
     expect(favorites[:data][0]).to be_a(Hash)
     expect(favorites[:data][0]).to have_key(:id)
@@ -62,5 +61,13 @@ describe 'favorites', type: :request do
     expect(favorites[:data][0][:attributes]).to have_key(:recipe_link)
     expect(favorites[:data][0][:attributes]).to have_key(:country)
     expect(favorites[:data][0][:attributes]).to have_key(:created_at)
+  end
+  
+  it 'returns an error if invalid api key' do
+    get "/api/v1/favorites?api_key=jh23b4ihfn34u3IBPNSjnwf"
+    expect(response.status).to eq(400)
+
+    error = JSON.parse(response.body, symbolize_names: true)
+    expect(error).to eq({ error: "Invalid api key"}) 
   end
 end
