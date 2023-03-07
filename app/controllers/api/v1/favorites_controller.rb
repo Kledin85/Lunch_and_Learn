@@ -5,7 +5,7 @@ class Api::V1::FavoritesController < ApplicationController
     if favorite.save 
       render json: { "success": "Favorite added successfully" }
     else
-      raise CreateError.new(details: favorite.errors.full_messages.to_sentence), status: :bad_request
+      render json: { "fail": "Invalid api key"}, status: 400
     end
   end
 
@@ -13,4 +13,5 @@ class Api::V1::FavoritesController < ApplicationController
     user_favorites = User.find_by(api_key: params[:api_key]).favorites
     render json: UserFavoritesSerializer.favorites(user_favorites)
   end
+
 end

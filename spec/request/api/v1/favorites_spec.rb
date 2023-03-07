@@ -1,6 +1,50 @@
 require 'rails_helper'
 
 describe 'favorites', type: :request do
+  before(:each) do
+    @user1 = create(:user)
+
+    @headers = {
+      'CONTENT_TYPE': 'application/json',
+      'ACCEPT': 'application/json'
+    }
+  end
+
+  it 'can create favorite based on json favorite data' do
+    payload = JSON.generate(
+      {
+        country: 'thailand',
+        recipe_link: 'http://norecipes.com/recipe/chicken-paprikash/',
+        recipe_title: 'Chicken Paprikash',
+        api_key: @user1.api_key
+      }
+    )
+
+    post "/api/v1/favorites", headers: @headers, params: payload
+    expect(response).to be_successful
+    expect(response.status).to eq(200)
+    
+    fav = JSON.parse(response.body, symbolize_names: true)
+    expect(fav).to eq({:success=>"Favorite added successfully"}) 
+  end
+
+  it 'wont create favorite based on json favorite data' do
+    payload = JSON.generate(
+      {
+        country: 'thailand',
+        recipe_link: 'http://norecipes.com/recipe/chicken-paprikash/',
+        recipe_title: 'Chicken Paprikash',
+        api_key: '123sdfhb345bsasfp4ss'
+      }
+    )
+
+    post "/api/v1/favorites", headers: @headers, params: payload
+    expect(response.status).to eq(400)
+    
+    fav = JSON.parse(response.body, symbolize_names: true)
+    expect(fav).to eq({ fail: "Invalid api key"}) 
+  end
+
   it 'can grab a users favorites' do
     user = User.all.first
     get '/api/v1/favorites?api_key=G1uPCpnE4MSAXY5mgRQaIoZD0jy897Wq'
