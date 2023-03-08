@@ -14,7 +14,6 @@ describe 'recipes', type: :request do
     recipes = JSON.parse(response.body, symbolize_names: true)
     expect(recipes[:data]).to be_a(Array)
     recipes[:data].each do |recipe|
-      # binding.pry
       expect(recipe).to be_a(Hash)
       expect(recipe[:id]).to eq(nil)
       expect(recipe[:type]).to eq("recipe")
